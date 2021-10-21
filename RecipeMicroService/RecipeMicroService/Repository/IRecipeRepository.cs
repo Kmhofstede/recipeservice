@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RecipeMicroService.Repository
 {
-    interface IRecipeRepository
+    public interface IRecipeRepository
     {
         IEnumerable<Recipe> GetRecipes();
         Recipe GetRecipeByID(int RecipeId);

@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using RecipeMicroService.DBContexts;
+using RecipeMicroService.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,6 +28,7 @@ namespace RecipeMicroService
         {
             services.AddRazorPages();
             services.AddDbContext<RecipeContext>(o => o.UseSqlServer(Configuration.GetConnectionString("RecipeDB")));
+            services.AddTransient<IRecipeRepository, RecipeRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
