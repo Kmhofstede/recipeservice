@@ -1,4 +1,5 @@
-﻿using RecipeMicroService.Models;
+﻿using RecipeMicroService.DBContexts;
+using RecipeMicroService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,14 +9,19 @@ namespace RecipeMicroService.Repository
 {
     public class RecipeRepository : IRecipeRepository
     {
+        private readonly RecipeContext _dbContext;
+        public RecipeRepository(RecipeContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
         public Recipe GetRecipeByID(int RecipeId)
         {
-            throw new NotImplementedException();
+            return _dbContext.Recipes.Find(RecipeId);
         }
 
         public IEnumerable<Recipe> GetRecipes()
         {
-            throw new NotImplementedException();
+            return _dbContext.Recipes.ToList();
         }
     }
 }
