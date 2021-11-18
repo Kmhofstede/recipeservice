@@ -10,6 +10,9 @@ namespace RecipeMicroService.Repository
     {
         IEnumerable<Recipe> GetRecipes();
         Recipe GetRecipeByID(int RecipeId);
-
+        public void DeleteRecipe(int RecipeId);
+        public void InsertRecipe(Recipe recipe);
+        public void Save();
+        public void UpdateRecipe(Recipe recipe);
     }
 }

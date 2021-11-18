@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  recipemicroservice:
+    image: ${DOCKER_REGISTRY-}recipemicroservice
+    build:
+      context: .
+      dockerfile: RecipeMicroService\Dockerfile

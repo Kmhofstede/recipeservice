@@ -3,7 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>04e96118-9c24-404c-a498-87da7ed110c2</UserSecretsId>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +15,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Steeltoe.Discovery.ClientCore" Version="3.1.1" />
+    <PackageReference Include="Steeltoe.Discovery.Eureka" Version="3.1.1" />
+    <PackageReference Include="Steeltoe.Management.EndpointBase" Version="3.1.1" />
   </ItemGroup>
 
 </Project>

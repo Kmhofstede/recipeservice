@@ -6,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Steeltoe.Discovery.Client;
+using Steeltoe.Discovery.Eureka;
+
 
 namespace RecipeMicroService
 {
@@ -21,6 +24,11 @@ namespace RecipeMicroService
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                });
+                })
+            .AddDiscoveryClient();
+            
+
+
+
     }
 }
