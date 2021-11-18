@@ -3,7 +3,6 @@ C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bi
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\RecipeMicroService.deps.json
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\RecipeMicroService.runtimeconfig.json
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\RecipeMicroService.runtimeconfig.dev.json
-C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\appsettings.Development.json
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\appsettings.json
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\RecipeMicroService.exe
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\RecipeMicroService.dll
@@ -28,3 +27,13 @@ C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bi
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Discovery.ClientBase.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Discovery.ClientCore.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Common.Abstractions.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Discovery.Abstractions.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Connector.Abstractions.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Common.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Common.Http.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Connector.ConnectorBase.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\Steeltoe.Extensions.Configuration.Abstractions.dll
+C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\bin\Debug\System.Reflection.MetadataLoadContext.dll

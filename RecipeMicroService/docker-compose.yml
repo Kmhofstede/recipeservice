@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}recipemicroservice
     build:
       context: .
-      dockerfile: RecipeMicroService\Dockerfile
+      dockerfile: RecipeMicroService/Dockerfile

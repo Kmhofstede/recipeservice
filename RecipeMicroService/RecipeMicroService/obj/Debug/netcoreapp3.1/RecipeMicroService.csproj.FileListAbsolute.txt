@@ -102,4 +102,3 @@ C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\Re
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\RecipeMicroService\bin\Debug\netcoreapp3.1\Steeltoe.Management.EndpointBase.dll
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\RecipeMicroService\bin\Debug\netcoreapp3.1\Steeltoe.Management.OpenTelemetryBase.dll
 C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\RecipeMicroService\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService\RecipeMicroService\obj\Debug\netcoreapp3.1\RecipeMicroService.csproj.AssemblyReference.cache

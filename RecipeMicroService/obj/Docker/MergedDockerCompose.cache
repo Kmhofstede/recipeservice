@@ -2,15 +2,33 @@ services:
   recipemicroservice:
     build:
       context: C:\Users\Jeffr\Documents\projecten\big enter\recipeservice\RecipeMicroService
-      dockerfile: RecipeMicroService\Dockerfile
+      dockerfile: RecipeMicroService/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ASPNETCORE_URLS: https://+:443;http://+:80
     image: recipemicroservice
+    networks:
+      default: null
     ports:
-    - target: 80
-    - target: 443
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
     volumes:
-    - C:\Users\Jeffr\AppData\Roaming\ASP.NET\Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
-    - C:\Users\Jeffr\AppData\Roaming\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
-version: '3.4'
+    - type: bind
+      source: C:\Users\Jeffr\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Jeffr\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+networks:
+  default:
+    name: dockercompose7415129743892068291_default
